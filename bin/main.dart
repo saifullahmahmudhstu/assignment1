@@ -1,11 +1,9 @@
 import 'two_number.dart';
+import '6to Last/6ToLast.dart';
 void main(List<String> arguments) {
   print('Hello');
   sum();
  createMethod();
-
-
-
 
  List nameList = ['My Name', 'My Father Name','My Sister Name'];
  print(nameList);
@@ -26,6 +24,9 @@ void main(List<String> arguments) {
 
   obj.TwoNum04();
 
+
+  var lastpart = PartTwoAssignment();
+  lastpart.Area();
 
 }
 
