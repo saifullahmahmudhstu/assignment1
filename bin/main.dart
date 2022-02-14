@@ -17,7 +17,7 @@ void main(List<String> arguments) {
  };
  
  print(idName);
-
+  print('Enter Two Number: ');
   var obj = TwoNumber();
 
   obj.printLine();
@@ -26,6 +26,8 @@ void main(List<String> arguments) {
 
 
   var lastpart = PartTwoAssignment();
+
+  print('Enter Radius of Circle: ');
   lastpart.Area();
   lastpart.NewMethod();
 
