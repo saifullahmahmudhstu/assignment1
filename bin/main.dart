@@ -27,6 +27,7 @@ void main(List<String> arguments) {
 
   var lastpart = PartTwoAssignment();
   lastpart.Area();
+  lastpart.NewMethod();
 
 }
 
